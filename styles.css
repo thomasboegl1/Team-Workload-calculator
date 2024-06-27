@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#wrapper {
+    flex: 1;
+  }
+
+.container-custom {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: inline-flex;
+}
+.custom-tasks {
+    min-width: 60%;
+}
+.task {
+    width: fit-content;
+}
+#team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-member{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+progress.show-value {
+    position: relative;
+  }
+  
+  progress.show-value:after {
+    content: attr(value)'%';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: calc(1rem / 1.5);
+    line-height: 1rem;
+  }
+  
+  progress.show-value.is-small:after {
+    font-size: calc(0.75rem / 1.5);
+    line-height: 0.75rem;
+  }
+  
+  progress.show-value.is-medium:after {
+    font-size: calc(1.25rem / 1.5);
+    line-height: 1.25rem;
+  }
+  
+  progress.show-value.is-large:after {
+    font-size: calc(1.5rem / 1.5);
+    line-height: 1.5rem;
+  }
+

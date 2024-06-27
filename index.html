@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light only">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Workload Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/css/bulma-extensions.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bulma-slider@2.0.5/dist/js/bulma-slider.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-tooltip@3.0.2/dist/css/bulma-tooltip.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+    <section class="section">
+        <h1 class="title is-1">Team Workload Calculator</h1>
+        <progress class="progress is-large is-primary show-value" max="100">0%</progress>
+        <div class="container-custom has-background-white">
+            <div class="container custom-tasks">
+                <p class="title is-5">Tasks</p>
+                <p class="subtitle is-6">What tasks should the team do ?</p>
+                <form id="task-form">
+                    <!-- Form content here -->
+                </form>
+                <p id="total-fte" class="has-text-weight-bold has-text-centered pt-4">Total FTE required: 0</p>
+            </div>
+            <div class="is-divider-vertical" data-content="AND"></div>
+            <div class="container">
+                <p class="title is-5">Team</p>
+                <p class="subtitle is-6">How is the team staffed ?</p>
+<!--                 <div class="content notification is-small p-2"><p>
+                    <b>Junior</b>: Takes 30% more time<br>
+                    <b>Middle</b>: No multiplier<br>
+                    <b>Senior</b>: Takes 30% less time
+                </p></div> -->
+                <forms>
+                    <input title="staffing" placeholder="" id="sliderWithValue" class="slider has-output is-fullwidth" step="1" min="0" max="10" value="3" type="range" style="margin: 0;">
+                    <output for="sliderWithValue" style="position:inherit;">3</output>
+                    <script>bulmaSlider.attach()</script>
+                </forms>
+                <div id="team-container">
+                    <!-- Team content here -->
+                </div>
+            </div>
+        </div>
+        <div class="custom-footer content mt-2 is-small"><p class="has-text-centered">Made with ❤️ by <a href="https://boeglin.xyz">Thomas Boeglin</a>. The code is open source and on <a href="https://github.com/thomasboegl1">GitHub</a></p></div>
+    </section>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>

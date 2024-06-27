@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Security Operations Center (SOC) Monitoring",
+    "fte": 1.2,
+    "description": "Continuous monitoring of security events and alerts."
+  },
+  {
+    "name": "Vulnerability Management",
+    "fte": 0.7,
+    "description": "Identifying and mitigating vulnerabilities in systems and applications."
+  },
+  {
+    "name": "Penetration Testing",
+    "fte": 0.9,
+    "description": "Simulating cyber attacks to identify security weaknesses."
+  },
+  {
+    "name": "Security Incident Investigation",
+    "fte": 1.1,
+    "description": "Investigating security incidents to determine root causes and impact."
+  },
+  {
+    "name": "Patch Management",
+    "fte": 0.6,
+    "description": "Ensuring systems and software are up-to-date with security patches."
+  },
+  {
+    "name": "Security Awareness Training",
+    "fte": 0.4,
+    "description": "Educating employees about cybersecurity best practices."
+  },
+  {
+    "name": "Endpoint Security Management",
+    "fte": 0.8,
+    "description": "Managing and securing endpoints (devices) within the network."
+  },
+  {
+    "name": "Security Policy Development",
+    "fte": 0.7,
+    "description": "Creating and updating security policies and procedures."
+  },
+  {
+    "name": "Network Security Monitoring",
+    "fte": 1.0,
+    "description": "Monitoring network traffic for suspicious activities and intrusions."
+  },
+  {
+    "name": "Data Loss Prevention (DLP)",
+    "fte": 0.9,
+    "description": "Implementing measures to prevent unauthorized data disclosure."
+  }
+]
