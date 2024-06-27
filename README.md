@@ -12,6 +12,10 @@ Efficiently manage and allocate team tasks based on FTE requirements with the **
 - Visual progress bar indicating workload utilization.
 - Responsive design using Bulma CSS framework.
 
+## Demo
+
+Check out the live demo: [Team Workload Calculator](https://thomasboegl1.github.io/Team-Workload-calculator/)
+
 ## Screenshots
 
 ![Screenshot 1](screenshots/Screenshot1.jpg)
